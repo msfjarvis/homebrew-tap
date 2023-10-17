@@ -2,14 +2,17 @@ class Adnix < Formula
   desc "Rust binary to generate DNSMasq and Unbound configurations from UNIX host files"
   homepage "https://github.com/msfjarvis/adnix-rs"
   if Hardware::CPU.type == :arm
-    url "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.7/adnix-aarch64-apple-darwin.tar.xz"
-    sha256 "d212c6b9f34fd2784f64ab5f914f397cc5d4efc46493348e2c4635c0658f2edd"
+    url "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.9/adnix-aarch64-apple-darwin.tar.xz"
+    sha256 "7ded696f0319fe6fece2208bcd896815dc0e65b6866333dd090954b582a8efad"
   else
-    url "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.7/adnix-x86_64-apple-darwin.tar.xz"
-    sha256 "c7064e68142e8db983e6597f9f8056171c3add39312f77a7ff48984827979200"
+    url "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.9/adnix-x86_64-apple-darwin.tar.xz"
+    sha256 "7cae2dea297d72dae3f2bb5f4dbd3cb035046be6c0e1681ec949e7274e7f232c"
   end
-  version "0.4.7"
-  license "MIT"
+  version "0.4.9"
+  license "MIT/Apache-2.0"
+  
+  depends_on ""
+  depends_on ""
 
   def install
     bin.install "adnix"
