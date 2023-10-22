@@ -2,13 +2,13 @@ class Rucksack < Formula
   desc "CLI tool to collect files from multiple directories into a single target"
   homepage "https://github.com/msfjarvis/rucksack"
   if Hardware::CPU.type == :arm
-    url "https://github.com/msfjarvis/rucksack/releases/download/v1.0.3/rucksack-aarch64-apple-darwin.tar.xz"
-    sha256 "6ceeed8e532c556c9b21a61684d3fbfafae3a049cc3d1491c63ba340545b6d9f"
+    url "https://github.com/msfjarvis/rucksack/releases/download/v1.0.4/rucksack-aarch64-apple-darwin.tar.xz"
+    sha256 "cb02ae2eb5ef6257f47206cc5cdec2381fe24a82161d5b7aeda6ed3b0d00a0b9"
   else
-    url "https://github.com/msfjarvis/rucksack/releases/download/v1.0.3/rucksack-x86_64-apple-darwin.tar.xz"
-    sha256 "00259c0292832d4c4e90ba2f05846c196b4060c6100d315da445ef5ff46535b2"
+    url "https://github.com/msfjarvis/rucksack/releases/download/v1.0.4/rucksack-x86_64-apple-darwin.tar.xz"
+    sha256 "818c44ebdb69562ad66d99227635ec6924a7573de0119e3f657fd73f3677fb18"
   end
-  version "1.0.3"
+  version "1.0.4"
   license "MIT/Apache-2.0"
 
   def install
