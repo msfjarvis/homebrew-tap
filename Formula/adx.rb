@@ -1,21 +1,21 @@
 class Adx < Formula
   desc "Poll Google's Maven repository to fetch the latest versions of AndroidX packages"
   homepage "https://github.com/msfjarvis/androidx-release-watcher"
-  version "4.5.4"
+  version "5.0.0"
   on_macos do
     on_arm do
-      url "https://github.com/msfjarvis/androidx-release-watcher/releases/download/v4.5.4/adx-aarch64-apple-darwin.tar.xz"
-      sha256 "ff8744b2eee3f8e7f377590e0556378e51737554b11ed4d16e090a9094e79903"
+      url "https://github.com/msfjarvis/androidx-release-watcher/releases/download/v5.0.0/adx-aarch64-apple-darwin.tar.xz"
+      sha256 "b0bed190f17c4ca4c35db8fadcbb2b3856754b9585bbbfc93d0a37c87a2429df"
     end
     on_intel do
-      url "https://github.com/msfjarvis/androidx-release-watcher/releases/download/v4.5.4/adx-x86_64-apple-darwin.tar.xz"
-      sha256 "87159f8141786c9d9b6641a77c83113da3b8a1737544b66dd6b5fcdcbb7fbb7e"
+      url "https://github.com/msfjarvis/androidx-release-watcher/releases/download/v5.0.0/adx-x86_64-apple-darwin.tar.xz"
+      sha256 "f871cf984c334f24c2839a822b94307b9d55eb948f5bd69fe0d03c6021da6c46"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/msfjarvis/androidx-release-watcher/releases/download/v4.5.4/adx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5f83a76eb01150913fc65d247d1a3ad8a2fff58ba99e24a357233eaf0683dbc9"
+      url "https://github.com/msfjarvis/androidx-release-watcher/releases/download/v5.0.0/adx-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4c328fb396bf104f3c5c8e33e35e47cc6d12ef387a3e92f649b83e238052b9fd"
     end
   end
   license "MIT/Apache-2.0"
