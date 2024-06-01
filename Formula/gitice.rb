@@ -2,13 +2,13 @@ class Gitice < Formula
   desc "Freeze your local git repositories for easy restoration"
   homepage "https://github.com/msfjarvis/gitice"
   if Hardware::CPU.type == :arm
-    url "https://github.com/msfjarvis/gitice/releases/download/v2.0.4/gitice-aarch64-apple-darwin.tar.xz"
-    sha256 "c53092439cbad8cf6a0f69262c42bc8262123e23f3f276bbe81b5f36fe376af3"
+    url "https://github.com/msfjarvis/gitice/releases/download/v2.0.5/gitice-aarch64-apple-darwin.tar.xz"
+    sha256 "7ccb8f7f27be2ff3453393d7e91015cde835ffc69460d29138be07c229c62931"
   else
-    url "https://github.com/msfjarvis/gitice/releases/download/v2.0.4/gitice-x86_64-apple-darwin.tar.xz"
-    sha256 "11f9cae87d01ee7d411153791e606f742f5b3e0ac8d37f062b78117620267faf"
+    url "https://github.com/msfjarvis/gitice/releases/download/v2.0.5/gitice-x86_64-apple-darwin.tar.xz"
+    sha256 "c4039099e2ef6f34943f101973891042121de2c19c117a09a2f84d67813ffe91"
   end
-  version "2.0.4"
+  version "2.0.5"
   license "MIT/Apache-2.0"
 
   def install
