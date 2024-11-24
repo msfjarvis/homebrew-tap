@@ -1,21 +1,21 @@
 class Gitice < Formula
   desc "Freeze your local git repositories for easy restoration"
   homepage "https://github.com/msfjarvis/gitice"
-  version "2.0.6"
+  version "2.0.7"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/msfjarvis/gitice/releases/download/v2.0.6/gitice-aarch64-apple-darwin.tar.xz"
-      sha256 "2ce30cd3cb5ff84fcae4d6deed138d972efb4e8f565c2360c980be009c0b68dd"
+      url "https://github.com/msfjarvis/gitice/releases/download/v2.0.7/gitice-aarch64-apple-darwin.tar.xz"
+      sha256 "30c2c074dc7ba9d6d003afcc3c57ba39868312ccd51e01b79b0d080fc6023f76"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/msfjarvis/gitice/releases/download/v2.0.6/gitice-x86_64-apple-darwin.tar.xz"
-      sha256 "8c3e094198aeb307d9a92db59d1e8be98a884cb444f27f0f89d6af8b381d2c15"
+      url "https://github.com/msfjarvis/gitice/releases/download/v2.0.7/gitice-x86_64-apple-darwin.tar.xz"
+      sha256 "54d58551f6683209b8f8bc6c6fee46d70beb6db2e07c8489f5f052d6dbfa7c74"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/msfjarvis/gitice/releases/download/v2.0.6/gitice-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "72e0be28a01a08af10b365d68e0ca3c50d5a618bd046aef4b56943ec3cb4f685"
+      url "https://github.com/msfjarvis/gitice/releases/download/v2.0.7/gitice-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3519fb77000fe73faaf06346cdf72c6e5660d005d47c24b909b1916bb631752c"
     end
   end
   license "MIT/Apache-2.0"
